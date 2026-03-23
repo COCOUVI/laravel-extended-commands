@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-extended-commands` will be documented in this file.
 
+## 1.4.0 - 2026-03-23
+
+### What's Changed
+
+* Feat: laravel 13 by @MrPunyapal in https://github.com/MrPunyapal/laravel-extended-commands/pull/10
+
+**Full Changelog**: https://github.com/MrPunyapal/laravel-extended-commands/compare/1.3.0...1.4.0
+
 ## 1.3.0 - 2025-12-30
 
 ### What's Changed
