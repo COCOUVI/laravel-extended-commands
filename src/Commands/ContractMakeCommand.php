@@ -83,6 +83,7 @@ class ContractMakeCommand extends GeneratorCommand
      *
      * @return array
      */
+    #[Override]
     protected function getOptions()
     {
         return [
