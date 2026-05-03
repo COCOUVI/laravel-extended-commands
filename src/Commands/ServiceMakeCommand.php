@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MrPunyapal\LaravelExtendedCommands\Commands;
 
 use Illuminate\Console\GeneratorCommand;
@@ -30,19 +32,6 @@ class ServiceMakeCommand extends GeneratorCommand
      * @var string
      */
     protected $type = 'Service';
-
-    /**
-     * Determine if the class already exists.
-     *
-     * @param  string  $rawName
-     * @return bool
-     */
-    #[Override]
-    protected function alreadyExists($rawName)
-    {
-        return class_exists($rawName) ||
-               $this->files->exists($this->getPath($this->qualifyClass($rawName)));
-    }
 
     /**
      * Get the stub file for the generator.
